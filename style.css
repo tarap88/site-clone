@@ -6,6 +6,23 @@
 
 }
 
+.bottom-img {
+    background-image: url(/assets/hero-img.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 25dvh;
+
+}
+
+.nav-logo {
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav-bg {
+    background-color: #6f7680;
+}
+
 /* code didnt work will go back 
 .side-img {
     width: 100%;
