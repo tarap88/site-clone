@@ -45,6 +45,7 @@
     .fun-card {
         position: absolute;
         bottom: -15vh;
+        outline: 3px red solid;
     }
 
     .fun-card-offset {
