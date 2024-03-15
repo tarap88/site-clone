@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="style.css">
     <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
         defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
 </head>
 
 <body class="debug">
     <!-- NAV SECTION -->
-    <nav class="container-fluid">
+    <nav class="container-fluid sticky-top">
         <section class="row nav-bg">
             <div>
                 <img class="nav-logo" src="/assets/travel-logo.png" alt="">
@@ -24,8 +25,28 @@
     <!-- HEADER SECTION -->
     <header class="container-fluid">
         <section class="row hero-img justify-content-end">
-            <div class="col-4 my-5 "><img src="//placehold.it/250x400" alt=""></div>
-            <div class="col-8 my-5">
+            <div class="col-md-5 my-5 p-2">
+                <form class="bg-white rounded p-3 shadow">
+                    <div>
+                        <h5 class="mb-3">Sign Up Below</h5>
+                        <input type="text" class="form-control" placeholder="NAME">
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" placeholder="EMAIL">
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" placeholder="PHONE">
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" class="form-check-inline">
+                        <label>By clicking this checkbox you agree </label>
+                    </div>
+                    <div class="mb-2">
+                        <button class="btn btn-outline-dark">Sign Up Now</button>
+                    </div>
+            </div>
+            </form>
+            <div class="col-md-7 my-5">
                 <h3>Title</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quam, odit ea, possimus inventore
                     accusamus quaerat beatae.</p>
@@ -35,59 +56,79 @@
     <!-- MAIN SECTION -->
     <main class="container-fluid">
         <section class="row">
-            <div class="col-4">
+            <div class="col-md-4">
                 <h3>Title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nam esse adipisci velit tempora
                     quidem laboriosam dolor sapiente illum a unde dolorum dignissimos est ipsam delectus voluptatum,
                     praesentium similique quaerat.</p>
             </div>
-            <div class="col-8 containing-block">
+            <div class="col-md-8 containing-block">
                 <div class="fun-card bg-light card-padding rounded shadow">
                     <div>
-                        <i class="mdi mdi-heart"></i>The best travel agents that truly care.
+                        <i class="mdi mdi-heart"></i> The best travel agents that truly care.
+                    </div>
+                    <div>
+                        <i class="mdi mdi-heart"></i> The best travel agents that truly care.
+                    </div>
+                    <div>
+                        <i class="mdi mdi-heart"></i> The best travel agents that truly care.
+                    </div>
+                    <div>
+                        <i class="mdi mdi-heart"></i> The best travel agents that truly care.
                     </div>
                 </div>
             </div>
         </section>
         <section class="container-fluid">
             <div class="row m-3">
-                <div class="col-4 m-5">
+                <div class="col-md-4 m-5">
                     <img class="side-img" src="/assets/travel-img.png" alt="">
                 </div>
-                <div class="col-5 fun-card-offset p-4">
+                <div class="col-md-5 fun-card-offset p-4">
                     <h3>Discover More Below</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo recusandae natus fuga id magni
                         tempore minima beatae molestias, consectetur facere numquam blanditiis enim optio. Nesciunt cum
                         ipsam totam quia asperiores!Nemo recusandae natus fuga id magni tempore minima beatae molestias,
                         consectetur facere numquam blanditiis enim optio. Nesciunt cum ipsam totam quia asperiores!</p>
-                    <div class="btn btn-primary rounded">Learn More</div>
+                    <div class="btn btn-dark rounded">Learn More</div>
                 </div>
             </div>
         </section>
         <section class="container-fluid">
-            <div class="row bg-secondary m-2 p-3 justify-content-center">
-                <div class="col-2 m-3 p-3 bg-white rounded shadow">
-                    <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
-                        accusamus
-                        sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque. lo
-                    </blockquote>
+            <div class="row bg-secondary m-2 p-3 justify-content-center align-items-center">
+                <div class="col-md-3">
+                    <div class="card-1 p-3 bg-white rounded shadow">
+                        <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
+                            accusamus
+                            sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque.
+                            lo
+                        </blockquote>
+                    </div>
                 </div>
-                <div class="col-4 m-4 p-3 bg-white rounded shadow">
-                    <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
-                        accusamus
-                        sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque. Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Repellat id animi saepe iure nemo? Officiis
-                        minima veritatis omnis deleniti quia dicta officia, rem voluptatem, excepturi culpa accusamus
-                        eveniet nostrum expedita.
-                    </blockquote>
+                <div class="col-md-5">
+                    <div class="card-2 m-4 p-3 bg-white rounded shadow">
+                        <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
+                            accusamus
+                            sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque.
+                            Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Repellat id animi saepe iure nemo?
+                            Officiis
+                            minima veritatis omnis deleniti quia dicta officia, rem voluptatem, excepturi culpa
+                            accusamus
+                            eveniet nostrum expedita.
+                        </blockquote>
+                    </div>
+
                 </div>
-                <div class="col-2 m-3 p-3 bg-white rounded shadow">
-                    <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
-                        accusamus
-                        sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque.
-                    </blockquote>
+                <div class="col-md-3">
+                    <div class="card-3 p-3 bg-white rounded shadow">
+                        <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
+                            accusamus
+                            sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque.
+                            lo
+                        </blockquote>
+                    </div>
                 </div>
-            </div>
         </section>
         <section class="container-fluid bottom-img">
         </section>
@@ -95,17 +136,28 @@
 
     <footer class="container-fluid">
         <section class="row bg-dark text-light justify-content-center">
-            <div class="col-3 m-2 p-3">
+            <div class="col-md-3 m-2 p-3">
                 <h5 class="fw-bold">Visit Us</h5>
                 <h6>4634 Shorline Road</h6>
                 <h6>Hayden, ID 83835</h6>
             </div>
-            <div class="col-3 m-2 p-3">
+            <div class="col-md-3 m-2 p-3">
                 <h5 class="fw-bold">Contact</h5>
+                <h6>208-756-8893</h6>
+                <h6>truetravels@gmail.com</h6>
             </div>
-            <div class="col-3 m-2 p-3">
+            <div class="col-md-3 m-2 p-3">
                 <h5 class="fw-bold">Socials</h5>
-            </div>
+                <div>
+                    <i class="mdi mdi-facebook"></i> FACEBOOK
+                </div>
+                <div>
+                    <i class="mdi mdi-instagram"></i> INSTAGRAM
+                </div>
+                <div>
+                    <i class="mdi mdi-twitter"></i> TWITTER
+                </div>
+
         </section>
 
     </footer>
