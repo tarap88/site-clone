@@ -1,7 +1,14 @@
 .hero-img {
-    background-image: url(/hero-img.png);
+    background-image: url(/assets/hero-img.png);
     background-size: cover;
     background-position: center;
     min-height: 50dvh;
 
 }
+
+/* code didnt work will go back 
+.side-img {
+    width: 100%;
+    object-fit: contain;
+}
+*/
