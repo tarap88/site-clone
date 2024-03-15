@@ -1,0 +1,7 @@
+.hero-img {
+    background-image: url(/hero-img.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 50dvh;
+
+}
