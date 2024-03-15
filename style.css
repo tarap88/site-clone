@@ -23,9 +23,30 @@
     background-color: #6f7680;
 }
 
-/* code didnt work will go back 
+.card-padding {
+    padding: 150px;
+}
+
+.containing-block {
+    position: relative;
+    min-height: 10vh;
+    padding: 85px;
+}
+
+.fun-card {
+    position: absolute;
+    bottom: -15vh;
+}
+
+.fun-card-offset {
+    margin-top: 15vh;
+}
+
+
+
+
+
 .side-img {
     width: 100%;
     object-fit: contain;
 }
-*/
