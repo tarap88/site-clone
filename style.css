@@ -1,3 +1,9 @@
+.buenard-font {
+    font-family: "buenard";
+}
+
+
+
 .hero-img {
     background-image: url(/assets/hero-img.png);
     background-size: cover;
@@ -23,6 +29,12 @@
     background-color: #6f7680;
 }
 
+.nav-bar,
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .card-padding {
     padding: 80px;
 }
@@ -39,18 +51,23 @@
     object-fit: contain;
 }
 
+.star-color {
+    color: #6f7680;
+    font-size: 30px;
+}
+
 @media (min-width: 768px) {
 
 
     .fun-card {
         position: absolute;
         bottom: -15vh;
-        outline: 3px red solid;
     }
 
     .fun-card-offset {
         margin-top: 15vh;
     }
+
 
 
 }

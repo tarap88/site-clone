@@ -11,14 +11,23 @@
     <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
         defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="debug">
     <!-- NAV SECTION -->
     <nav class="container-fluid sticky-top">
-        <section class="row nav-bg">
-            <div>
-                <img class="nav-logo" src="/assets/travel-logo.png" alt="">
+        <section class="row justify-content-between pe-3 nav-bg">
+            <div class="col-md-2 d-none d-md-block">
+                <img class="nav-logo" src="/assets/travel-logo.png" alt="arrow going around earth logo">
+            </div>
+            <div class="col-md-6 d-flex justify-content-end justify-content-between pt-2 nav-bar">
+                <a href="">Home</a>
+                <a href="">Visit Us</a>
+                <a href="">Contact Us</a>
+                <a href="">Socials</a>
             </div>
         </section>
     </nav>
@@ -39,15 +48,15 @@
                     </div>
                     <div class="mb-2">
                         <input type="checkbox" class="form-check-inline">
-                        <label>By clicking this checkbox you agree </label>
+                        <label>By clicking this checkbox you agree</label>
                     </div>
                     <div class="mb-2">
                         <button class="btn btn-outline-dark">Sign Up Now</button>
                     </div>
             </div>
             </form>
-            <div class="col-md-7 my-5">
-                <h3>Title</h3>
+            <div class="col-md-7 d-none d-md-block my-5">
+                <h3 class="buenard-font">Title</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quam, odit ea, possimus inventore
                     accusamus quaerat beatae.</p>
         </section>
@@ -57,7 +66,7 @@
     <main class="container-fluid">
         <section class="row">
             <div class="col-md-4">
-                <h3>Title</h3>
+                <h3 class="buenard-font">Title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nam esse adipisci velit tempora
                     quidem laboriosam dolor sapiente illum a unde dolorum dignissimos est ipsam delectus voluptatum,
                     praesentium similique quaerat.</p>
@@ -82,10 +91,10 @@
         <section class="container-fluid">
             <div class="row m-3">
                 <div class="col-md-4">
-                    <img class="side-img" src="/assets/travel-img.png" alt="">
+                    <img class="side-img" src="/assets/travel-img.png" alt="woman traveling">
                 </div>
                 <div class="col-md-5 fun-card-offset p-4 ms-md-4">
-                    <h3>Discover More Below</h3>
+                    <h3 class="buenard-font">Discover More Below</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo recusandae natus fuga id magni
                         tempore minima beatae molestias, consectetur facere numquam blanditiis enim optio. Nesciunt cum
                         ipsam totam quia asperiores!Nemo recusandae natus fuga id magni tempore minima beatae molestias,
@@ -98,16 +107,25 @@
             <div class="row bg-secondary m-2 p-3 justify-content-center align-items-center">
                 <div class="col-md-3">
                     <div class="card-1 p-3 bg-white rounded shadow">
-                        <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
+                        <blockquote class="buenard-font">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+                            fugiat reiciendis
                             accusamus
                             sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque.
-                            lo
+                            <p class="fst-italic fw-bold pt-2"> - Rose Jenkins</p>
                         </blockquote>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="card-2 m-4 p-3 bg-white rounded shadow">
-                        <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
+                        <div class="d-flex justify-content-center">
+                            <i class="mdi mdi-star-box star-color p-3"></i>
+                            <i class="mdi mdi-star-box star-color p-3"></i>
+                            <i class="mdi mdi-star-box star-color p-3"></i>
+                            <i class="mdi mdi-star-box star-color p-3"></i>
+                            <i class="mdi mdi-star-box star-color p-3"></i>
+                        </div>
+                        <blockquote class="buenard-font">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+                            fugiat reiciendis
                             accusamus
                             sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque.
                             Lorem
@@ -116,16 +134,18 @@
                             minima veritatis omnis deleniti quia dicta officia, rem voluptatem, excepturi culpa
                             accusamus
                             eveniet nostrum expedita.
+                            <p class="fst-italic fw-bold pt-2"> - Walter White</p>
                         </blockquote>
                     </div>
 
                 </div>
                 <div class="col-md-3">
                     <div class="card-3 p-3 bg-white rounded shadow">
-                        <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius fugiat reiciendis
+                        <blockquote class="buenard-font">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+                            fugiat reiciendis
                             accusamus
                             sit enim accusantium fuga corrupti fugit illum! Consequatur pariatur id esse rerum itaque.
-                            lo
+                            <p class="fst-italic fw-bold pt-2"> - Greg Johnson</p>
                         </blockquote>
                     </div>
                 </div>
